@@ -1,4 +1,2 @@
 fastai
 voila
-ipywidgets
-pathlib
