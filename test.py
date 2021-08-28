@@ -7,7 +7,7 @@ fastbook.setup_book()
 from fastbook import *
 from fastai.vision.widgets import *
 from IPython.display import display
-
+path = Path()
 learn_inf = load_learner('bird_mmodel.pkl', cpu=True)
 
 # btn_upload = widgets.FileUpload()
