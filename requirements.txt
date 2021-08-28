@@ -1,5 +1,5 @@
 fastai
 fastbook
-voila --debug
+voila
 ipywidgets
 pathlib
