@@ -11,7 +11,7 @@ from IPython.display import display
 try:
     learn_inf = load_learner('bird_mmodel.pkl', cpu=True)
 except:
-    print(Error)
+    raise Error
 btn_upload = widgets.FileUpload()
 out_pl = widgets.Output()
 lbl_pred = widgets.Label()
