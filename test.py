@@ -1,11 +1,17 @@
 
+
+from copy import Error
 import fastbook
+
 fastbook.setup_book()
 from fastbook import *
 from fastai.vision.widgets import *
 from IPython.display import display
 
-learn_inf = load_learner('bird_model.pkl', cpu=True)
+try:
+    learn_inf = load_learner('bird_mmodel.pkl', cpu=True)
+except:
+    print(Error)
 btn_upload = widgets.FileUpload()
 out_pl = widgets.Output()
 lbl_pred = widgets.Label()
