@@ -1,1 +1,1 @@
-web: voila --port=$PORT --no-browser --enable_nbextensions=True bird_classifier_nb.ipynb
+web: voila --port=$PORT --no-browser --enable_nbextensions=True skin_lesion_classifier/skin_lesion_classifier.ipynb
