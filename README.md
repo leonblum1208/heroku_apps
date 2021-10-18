@@ -1,2 +1,2 @@
-# Projects_public
-Some Projects for anyone to see.
+# Heroku Apps
+Repository for deployable apps via Heroku
